@@ -197,18 +197,18 @@ export default function GiftClient({ data }: Props) {
         }}
       >
         <div className="intro-content">
-          <p className="handwritten intro-heading">open me!</p>
+          <p className="handwritten intro-heading">hey babe!</p>
           <div className="envelope-wrapper">
             <Image
               src={data.envelopeImage}
               alt="Wax Sealed Envelope"
-              width={320}
-              height={270}
+              width={290}
+              height={205}
               className="envelope-image"
               priority
             />
           </div>
-          <p className="handwritten intro-subtitle">you got a mail!</p>
+          <p className="handwritten intro-subtitle">you've got new emails</p>
           <button
             type="button"
             className="open-envelope-btn"
